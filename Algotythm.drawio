@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-07-16T20:14:06.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="SiKzcjk6aOLszebzBhdV" version="21.6.1" type="device">
+  <diagram name="Страница 1" id="R91eUPMvY38OtZIHPmt0">
+    <mxGraphModel dx="1236" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-1" target="Qk0nVgk95PnHpQ3sPM0A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-1" value="Создание Массива2, включающего только те элементы Массива1, количество символов в которых &amp;lt;=3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-2" target="Qk0nVgk95PnHpQ3sPM0A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-2" value="string [] array1&lt;br&gt;string [] array2&lt;br&gt;int count = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-4" target="Qk0nVgk95PnHpQ3sPM0A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-4" value="for (int i = 0; i&amp;lt;array1.length; i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168" y="290" width="246" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-6" target="Qk0nVgk95PnHpQ3sPM0A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-6" target="Qk0nVgk95PnHpQ3sPM0A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-6" value="if (array1[i].Length&amp;lt;=3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qk0nVgk95PnHpQ3sPM0A-9" target="Qk0nVgk95PnHpQ3sPM0A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-9" value="array2[count]=array1[i]&lt;br&gt;count++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-12" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-13" value="До" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk0nVgk95PnHpQ3sPM0A-14" value="В массив2 переносится элемент, длина которого &amp;lt;=3 символа" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="375" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
